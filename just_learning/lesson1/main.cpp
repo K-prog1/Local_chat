@@ -1,4 +1,4 @@
 #include <SFML/Network.hpp>
-#include <iosteam>
+#include <iostream>
 #include <string>
-#include <windows>
+#include <windows.h>
