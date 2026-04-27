@@ -10,8 +10,13 @@
                 "${file}",
                 "-I", "C:/ITProg/SFML-2.6.1/include",
                 "-L", "C:/ITProg/SFML-2.6.1/lib",
+                "-DSFML_STATIC",
+                "-lsfml-network-s",
+                "-lsfml-system-s",
                 "-lsfml-network",                         
                 "-lsfml-system",  
+                "-lws2_32",   
+                "-lwinmm",    
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
